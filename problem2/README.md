@@ -1,6 +1,6 @@
 ## Bank Marketing Prediction 
 
-#Introduction:
+# Introduction:
 A banking institution aims to predict whether a customer will subscribe to a **term deposit** based on their demographic and banking behavior data. This is a **binary classification problem**, where the target variable indicates:
 
 * `yes` → Customer subscribed
@@ -20,7 +20,7 @@ Features include:
 >**Target variable**:
   >`y` → subscription to term deposit (yes/no)
 
-#Objective:
+# Objective:
 To build a **Logistic Regression model** that predicts whether a new customer will subscribe to a term deposit.
 
 # Methodology:
@@ -65,7 +65,7 @@ To build a **Logistic Regression model** that predicts whether a new customer wi
      > Confusion Matrix
      > Precision, Recall, F1-score
 
-#Results & Findings:
+# Results & Findings:
 
 >Model Performance
 
