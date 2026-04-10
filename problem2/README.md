@@ -1,4 +1,4 @@
-## Bank Marketing Prediction .
+## Bank Marketing Prediction 
 
 #Introduction:
 A banking institution aims to predict whether a customer will subscribe to a **term deposit** based on their demographic and banking behavior data. This is a **binary classification problem**, where the target variable indicates:
