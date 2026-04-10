@@ -61,7 +61,7 @@ We used Transfer Learning with EfficientNetB4:
 
 >Custom classification head added:
 
-     EfficientNetB4 (Base Model)
+    EfficientNetB4 (Base Model)
 
         ↓
     Global Average Pooling
