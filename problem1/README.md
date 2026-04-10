@@ -37,10 +37,15 @@ The dataset is imbalanced (Pneumonia > Normal).
 Techniques used:
 
 >Class Weights
->Data Augmentation:
+
+>Data Augmentation
+
 >Rotation
+
 >Zoom
+
 >Horizontal Flip
+
 >Shift transformations
 
 3. Model Architecture:
