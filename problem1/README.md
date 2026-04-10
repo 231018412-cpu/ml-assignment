@@ -3,7 +3,9 @@
 # Introduction:
 This project focuses on building a Convolutional Neural Network (CNN) model to classify chest X-ray images into two categories:
 1.Pneumonia.
+
 2.Normal.
+
 The dataset contains 5,863 JPEG images, organized into:
        
        Archive/
@@ -59,33 +61,46 @@ We used Transfer Learning with EfficientNetB4:
 >Custom classification head added:
 
 EfficientNetB4 (Base Model)
+
         ↓
 Global Average Pooling
+
         ↓
 Batch Normalization
+
         ↓
 Dense (256, ReLU)
+
         ↓
 Dropout (0.5)
+
         ↓
 Dense (1, Sigmoid)
 
+
 4. Loss Function:
+   
 >Focal Loss → handles class imbalance better than binary crossentropy
 
 5. Training Strategy:
+   
 >Optimizer: Adam
+
 >Learning Rate:
+
              Initial: 1e-4
              Fine-tuning: 1e-5
 >Callbacks Used:
+
              EarlyStopping (patience = 3)
              ReduceLROnPlateau
              ModelCheckpoint
 
 6. Fine-Tuning:
->Last layers of EfficientNet were unfrozen
->Model retrained for better feature learning
+   
+>Last layers of EfficientNet were unfrozen.
+
+>Model retrained for better feature learning.
 
 # Results & Findings:
 
@@ -98,18 +113,27 @@ Dense (1, Sigmoid)
 📉 Confusion Matrix Insights:
 
 >High detection rate for Pneumonia cases.
+
 >Some misclassification in Normal class.
+
 >Model is slightly biased due to dataset imbalance.
 
 📈 Observations:
 >Transfer learning significantly improved performance.
+
 >Focal loss helped reduce imbalance impact.
+
 >Data augmentation improved generalization.
+
 >Fine-tuning increased final accuracy.
 
 # Conclusion:
+
 This project successfully demonstrates that:
+
 >CNN with transfer learning can effectively classify medical images.
+
 >The model achieves high accuracy (~90%).
+
 >It can assist healthcare professionals in early pneumonia detection.
 
