@@ -14,8 +14,11 @@ The dataset contains 5,863 JPEG images, organized into:
 
 # Objective:
 To develop a deep learning model that can:
+
 >Automatically classify chest X-ray images
+
 >Assist in early detection of pneumonia
+
 >Achieve high accuracy (≈89%+)
 
 # Methodology:
